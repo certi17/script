@@ -14,3 +14,5 @@ convert crop_temp_l.jpg crop_temp_r.jpg +append crop_%%~ni%%~xi
 
 rem reference https://ffmpeg.org/ffmpeg.html
 rem reference http://horangi.tistory.com/290
+
+https://hyundonghwang.github.io/2015/11/19/%ED%8C%8C%EC%9B%8C%EC%89%98-%EC%8A%A4%ED%84%B0%EB%94%94/
