@@ -11,3 +11,6 @@ rem http://mwultong.blogspot.com/2006/11/bat-if-dos-batch-file-if.html
 convert %%~ni%%~xi -crop 1296x3888+1296+0 crop_temp_l.jpg
 convert %%~ni%%~xi -crop 1296x3888+5184+0 crop_temp_r.jpg
 convert crop_temp_l.jpg crop_temp_r.jpg +append crop_%%~ni%%~xi
+
+rem reference https://ffmpeg.org/ffmpeg.html
+rem reference http://horangi.tistory.com/290
